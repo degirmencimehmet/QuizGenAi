@@ -10,8 +10,8 @@ import re
 app = FastAPI()
 
 # === Model ve Tokenizer belleğe yükleniyor
-tokenizer = GPT2Tokenizer.from_pretrained("gpt2")
-model = GPT2LMHeadModel.from_pretrained("gpt2")
+tokenizer = GPT2Tokenizer.from_pretrained("distilgpt2")
+model = GPT2LMHeadModel.from_pretrained("distilgpt2")
 model.eval()
 
 # === CSV'den cümleleri al
