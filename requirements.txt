@@ -1,5 +1,5 @@
+transformers==4.31.0
+torch==2.0.1
 fastapi
 uvicorn
-transformers
-torch
 pandas
